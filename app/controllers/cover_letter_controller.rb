@@ -1,6 +1,6 @@
 class CoverLetterController < ApplicationController
 
-	def index
+	def Hi_Jellyvision
 	end
 
 	def projects
