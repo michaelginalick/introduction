@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
 
-  root 'cover_letter#projects'
+  root 'cover_letter#Hi_Jellyvision'
    resources :cover_letter, only: [:index]
    resources :download, only: [:pdf]
+   get '/Hi_Jellyvision' => 'cover_letter#Hi_Jellyvision', :as => 'Hi_Jellyvision'
    get '/projects' => 'cover_letter#projects', :as => 'projects'
    get '/about_me' => 'cover_letter#about_me', :as => 'about_me'
    get '/resume' => 'cover_letter#resume', :as => 'resume'

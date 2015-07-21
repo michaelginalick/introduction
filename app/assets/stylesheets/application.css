@@ -94,9 +94,8 @@ body {
   padding: 5%; }
   @media (min-width: 767px) {
 .inner  {
-      padding: 3% 5%; } 
+      padding: 3% 3%; } 
   }
-
 
 
 .row {
